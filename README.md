@@ -10,6 +10,8 @@ This is the public webpage of the CMU-Pitt Computational Biology PhD Program's G
 
 If you have issues installing some of the gems, try deactivating anaconda.
 
+The [Jekyll](https://jekyllrb.com/) documentation is useful for setting up the environment and updating the webpage.
+
 ### Viewing the webpage locally
 Assuming you have followed all of the steps above for properly updating the website, you can also host a local version to see changes as you make them by running:
 

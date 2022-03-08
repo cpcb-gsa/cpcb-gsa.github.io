@@ -5,48 +5,48 @@
 #   advisor: 
 #   fun_fact: 
 
-- name: Neha Cheemalavagu
+- name: "Neha Cheemalavagu"
   title: President
-  year: 4th year
-  advisor: Rachel Gottschalk
-  fun_fact: I played soccer for 17 years.
+  year: 4
+  advisor: "Rachel Gottschalk"
+  fun_fact: "I played soccer for 17 years."
 
 # - name: Monica Dayao
 #   title: Vice President
-#   year: 3rd year
+#   year: 3
 
-- name: Andrew (Drew) McNutt   
+- name: "Andrew (Drew) McNutt"   
   title: Treasurer
-  year: 3rd year
-  advisor: David Koes
-  fun_fact: I brew my own ginger beer.
+  year: 3
+  advisor: "David Koes"
+  fun_fact: "I brew my own ginger beer."
 
-- name: Steven Smeal
-  title: University of Pittsburgh GSA Representative
-  year: 3rd year
-  advisor: Robin Lee
-  fun_fact: I help make educational Youtube videos for BioZone
+- name: "Steven Smeal"
+  title: "University of Pittsburgh GSA Representative"
+  year: 3
+  advisor: "Robin Lee"
+  fun_fact: "I help make educational Youtube videos for BioZone"
 
-- name: BaDoi Phan
-  title: Carnegie Mellon GSA Representative
-  year: 3rd year
-  advisor: Andreas Pfenning
-  fun_fact: I've traveled around the world in 80 days.
+- name: "BaDoi Phan"
+  title: "Carnegie Mellon GSA Representative"
+  year: 3
+  advisor: "Andreas Pfenning"
+  fun_fact: "I've traveled around the world in 80 days."
 
-- name: Roshni Bhatt
+- name: "Roshni Bhatt"
   title: Ombudsperson
-  year: 3rd year
-  advisor: Jacob Durrant
-  fun_fact: I listen to more music in languages I don't speak than in languages I do.
+  year: 3
+  advisor: "Jacob Durrant"
+  fun_fact: "I listen to more music in languages I don't speak than in languages I do."
 
-- name: Gabriella Gerlach
+- name: "Gabriella Gerlach"
   title: Senator
-  year: 3rd year
-  advisor: Carlos Camacho
-  fun_fact: I ride horses.
+  year: 3
+  advisor: "Carlos Camacho"
+  fun_fact: "I ride horses."
 
-- name: Caleb Ellington
+- name: "Caleb Ellington"
   title: Senator
-  year: 2nd year
-  advisor: Eric Xing
-  fun_fact: Last sumemr I spent 10 days kayaking the Tikchik river in Alaska.
+  year: 2
+  advisor: "Eric Xing"
+  fun_fact: "Last summer I spent 10 days kayaking the Tikchik river in Alaska."

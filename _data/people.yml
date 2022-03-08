@@ -1,0 +1,52 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: Neha Cheemalavagu
+  title: President
+  year: 4th year
+  advisor: Rachel Gottschalk
+  fun_fact: I played soccer for 17 years.
+
+# - name: Monica Dayao
+#   title: Vice President
+#   year: 3rd year
+
+- name: Andrew (Drew) McNutt   
+  title: Treasurer
+  year: 3rd year
+  advisor: David Koes
+  fun_fact: I brew my own ginger beer.
+
+- name: Steven Smeal
+  title: University of Pittsburgh GSA Representative
+  year: 3rd year
+  advisor: Robin Lee
+  fun_fact: I help make educational Youtube videos for BioZone
+
+- name: BaDoi Phan
+  title: Carnegie Mellon GSA Representative
+  year: 3rd year
+  advisor: Andreas Pfenning
+  fun_fact: I've traveled around the world in 80 days.
+
+- name: Roshni Bhatt
+  title: Ombudsperson
+  year: 3rd year
+  advisor: Jacob Durrant
+  fun_fact: I listen to more music in languages I don't speak than in languages I do.
+
+- name: Gabriella Gerlach
+  title: Senator
+  year: 3rd year
+  advisor: Carlos Camacho
+  fun_fact: I ride horses.
+
+- name: Caleb Ellington
+  title: Senator
+  year: 2nd year
+  advisor: Eric Xing
+  fun_fact: Last sumemr I spent 10 days kayaking the Tikchik river in Alaska.

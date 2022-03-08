@@ -11,10 +11,11 @@
   advisor: "Rachel Gottschalk"
   fun_fact: "I played soccer for 17 years."
 
-# - name: "Monica Dayao"
-#   title: "Vice President"
-#   year: 3
-#   advisor: "Ziv Bar-Joseph"
+- name: "Monica Dayao"
+  title: "Vice President"
+  year: 3
+  advisor: "Ziv Bar-Joseph"
+  fun_fact: "I went to preschool in Tokyo, Japan."
 
 - name: "Andrew (Drew) McNutt"   
   title: Treasurer

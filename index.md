@@ -7,10 +7,10 @@ column2:
 ---
 
 Welcome to the CPCB GSA website! 
-The CMU-Pitt Computational Biology Graduate Student Association (CPCB GSA) represents the students in the CPCB Joint PhD program. 
+The CMU-Pitt Computational Biology Graduate Student Association (CPCB GSA) represents the students in the [CPCB Joint PhD program](http://www.compbio.cmu.edu/). 
 
 We are committed to enhancing graduate student life within the program by organizing academic and social events and by serving as liaisons between the student body and the program administrators. 
 
-Navigate the tabs above to see important documents related to the program, the social calendar, meeting minutes, and more. 
+Navigate the tabs above to see various items related to the program, the social calendar, meeting minutes, and more.
 
 ### Upcoming events!

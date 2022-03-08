@@ -8,7 +8,7 @@ description: CMU-Pitt Computational Biology PhD Graduate Student Association
 
 sections:
   - title: Documents
-    path:
+    path: ./documents.html
   - title: Calendar
     path: ./calendar.html
   - title: Meeting Minutes

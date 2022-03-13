@@ -41,6 +41,12 @@
   advisor: "Jacob Durrant"
   fun_fact: "I listen to more music in languages I don't speak than in languages I do."
 
+- name: "Stefan Andjelkovic"
+  title: Student Seminar Coordinator
+  year: 4
+  advisor: "Natasa Miskov-Zivanov"
+  fun_fact: "I played soccer on Parker's Piece where the modern soccer rules were first defined and applied." 
+
 - name: "Gabriella Gerlach"
   title: Senator
   year: 3
@@ -52,3 +58,10 @@
   year: 2
   advisor: "Eric Xing"
   fun_fact: "Last summer I spent 10 days kayaking the Tikchik river in Alaska."
+
+- name: "Sophia Hu"
+  title: Senator
+  year: 2
+  advisor: "Jianhua Xing"
+  fun_fact: "I'm a black belt in karate."
+

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="center-table">
+<table class="table table-bordered table-striped table-hover" style="display:inline-table;">
+	<thead>
+		<tr>
+			<th scope="col">Date</th>
+			<th scope="col">URL</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for minutes in site.data.minutes %}
+		<tr>
+			<td>{{ minutes.date | date: "%b %Y" }}</td>
+			<td><a href="{{ minutes.url }}" target="_blank">Minutes</a></td>
+		</tr>
+	{% endfor %} 
+	</tbody>
+</table>
+</div>

@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+.center-table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .btn-no-outline {
   display: inline-block;
   margin-bottom: 1rem;

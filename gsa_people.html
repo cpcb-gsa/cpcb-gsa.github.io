@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="container">
+	{% for person in site.data.people %}
+	{% assign rownum = forloop.index0 | modulo:3 %}
+		{% if rownum == 0 %}
+			<div class='row d-flex flex-wrap align-items-center'>
+		{% endif %}
+		{% assign pic_fname = person.name | truncatewords: 1, "" %}
+		<div class='col-4'>
+			<h3 class='text-center'>{{person.title}}</h3>
+			<img class='img-rounded mx-auto d-block' src='/assets/images/{{pic_fname}}_profile.jpg' alt="">
+			<div class='text-center'>
+				<p style="font-size:1.25em;margin-bottom:0em;"><strong>{{person.name}}</strong></p>
+				<p class='text-center'>
+				{{person.year}}<sup>
+					{%- if person.year > 3 -%}
+						th
+					{%- elsif person.year == 3 -%}
+						rd
+					{%- elsif person.year == 2 -%}
+						nd
+					{%- elsif person.year == 1 -%}
+						th
+					{% endif %}
+					</sup>  year
+					<br>
+					<strong>Advisor: </strong>{{person.advisor}}
+					<br>
+					{{person.fun_fact}}
+				</p>
+			</div>
+		</div>
+		{% if rownum == 2 %}
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>

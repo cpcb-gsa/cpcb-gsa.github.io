@@ -1,0 +1,79 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: "Neha Cheemalavagu"
+  title: President
+  year: 4
+  advisor: "Rachel Gottschalk"
+  fun_fact: "I played soccer for 17 years."
+
+- name: "Monica Dayao"
+  title: "Vice President"
+  year: 3
+  advisor: "Ziv Bar-Joseph"
+  fun_fact: "I went to preschool in Tokyo."
+
+- name: "Andrew (Drew) McNutt"   
+  title: Treasurer
+  year: 3
+  advisor: "David Koes"
+  fun_fact: "I brew my own ginger beer."
+
+- name: "Steven Smeal"
+  title: "Pitt GSA Rep"
+  year: 3
+  advisor: "Robin Lee"
+  fun_fact: "I help make educational Youtube videos for BioZone."
+
+- name: "BaDoi Phan"
+  title: "CMU GSA Rep"
+  year: 3
+  advisor: "Andreas Pfenning"
+  fun_fact: "I've traveled around the world in 80 days."
+
+- name: "Roshni Bhatt"
+  title: Ombudsperson
+  year: 3
+  advisor: "Jacob Durrant"
+  fun_fact: "I listen to more music in languages I don't speak than in languages I do."
+
+- name: "Stefan Andjelkovic"
+  title: Student Seminar Coordinator
+  year: 4
+  advisor: "Natasa Miskov-Zivanov"
+  fun_fact: "I played soccer on Parker's Piece where the modern soccer rules were first defined and applied." 
+
+- name: "Marissa Di"
+  title: Social Media Chair
+  year: 3
+  advisor: "Takis Benos"
+  fun_fact: "I have a video playlist for cats getting baths."
+
+- name: "Gabriella Gerlach"
+  title: Senator
+  year: 3
+  advisor: "Carlos Camacho"
+  fun_fact: "I ride horses."
+
+- name: "Shahul Alam"
+  title: Senator
+  year: 2
+  advisor: "Jian Ma"
+  fun_fact: "I love jazz, and I've been learning jazz piano over quarantine!"
+
+- name: "Caleb Ellington"
+  title: Senator
+  year: 2
+  advisor: "Eric Xing"
+  fun_fact: "Last summer I spent 10 days kayaking the Tikchik river in Alaska."
+
+- name: "Sophia Hu"
+  title: Senator
+  year: 2
+  advisor: "Jianhua Xing"
+  fun_fact: "I'm a black belt in karate."
+

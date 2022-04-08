@@ -1,0 +1,1 @@
+Profile images need to have the naming scheme `<first_name>_profile.jpg`, where `<first_name>` is the first name of the person in the `_data/people.yml` file, in order to work with the current page setup. 

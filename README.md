@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# CPCB GSA website
+This is the public webpage of the CMU-Pitt Computational Biology PhD Program's Graduate Student Association (CPCB GSA). 
 
-You can use the [editor on GitHub](https://github.com/cpcb-gsa/cpcb-gsa.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Updating the website (for organization members)
+1. Clone this repository: `git clone git@github.com:cpcb-gsa/cpcb-gsa.github.io.git`
+2. `cd cpcb-gsa.github.io/`
+3. Ensure you have all of the [prerequisites](https://jekyllrb.com/docs/installation/#requirements) (make sure to follow the guide for your OS)
+4. `gem install bundler`
+5. `bundle install`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you have issues installing some of the gems, try deactivating anaconda.
 
-### Markdown
+The [Jekyll](https://jekyllrb.com/) documentation is useful for setting up the environment and updating the webpage.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Viewing the webpage locally
+Assuming you have followed all of the steps above for properly updating the website, you can also host a local version to see changes as you make them by running:
 
-```markdown
-Syntax highlighted code block
+`bundle exec jekyll serve`
 
-# Header 1
-## Header 2
-### Header 3
+Then go on your browser to [http://localhost:4000](http://localhost:4000).
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cpcb-gsa/cpcb-gsa.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

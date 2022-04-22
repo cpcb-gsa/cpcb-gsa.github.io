@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="progress" style="height: 50px;" >
+	<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar-marker" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<script>
+	fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQSskiQhmJeADX7PbyY_uyH3ZlDafR2egDaiw-FHjB_CUaYSdvZo4reSaw_GBxAL8qwAnDkYztsGEDN/pubhtml?gid=2050786915&single=true')
+    .then(function(response) {
+        // When the page is loaded convert it to text
+        return response.text()
+    })
+    .then(function(html) {
+        // Initialize the DOM parser
+        var parser = new DOMParser();
+
+        // Parse the text
+        var doc = parser.parseFromString(html, "text/html");
+
+        let curprog = doc.getElementsByClassName("s0")[0].textContent;
+				let totstu = 86;
+				let totneeded = 80;
+
+				var elem = document.getElementsByClassName("progress-bar progress-bar-striped")[0];
+				let width = curprog/totstu*100;
+				elem.style.width = width + "%";
+				elem["aria-valuenow"]= (width).toFixed(1);
+				elem.innerHTML = (width).toFixed(1) + "%";
+				var elem = document.getElementsByClassName("progress-bar-marker")[0];
+				elem.style.width = totneeded - width + "%";
+
+    })
+    .catch(function(err) {  
+        console.log('Failed to fetch page: ', err);  
+    });
+</script>

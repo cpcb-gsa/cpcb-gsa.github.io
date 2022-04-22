@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
+<h1 style="text-align: center;">CPCB 2022 Satisfaction Survey Response</h1>
+<p id="curprog">The current progress is indicated by the <font color="blue" id="progress-color">blue progress bar</font>.</p>
+<p id="needed-progress">The 80% response rate required for our ice cream event is indicated by the <font color="red">red line</font>.</p>
 <div class="progress" style="height: 50px;" >
 	<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
   <div class="progress-bar-marker" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div id="complete">
 </div>
 <script>
 	fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQSskiQhmJeADX7PbyY_uyH3ZlDafR2egDaiw-FHjB_CUaYSdvZo4reSaw_GBxAL8qwAnDkYztsGEDN/pubhtml?gid=2050786915&single=true')
@@ -25,10 +30,34 @@ layout: default
 				var elem = document.getElementsByClassName("progress-bar progress-bar-striped")[0];
 				let width = curprog/totstu*100;
 				elem.style.width = width + "%";
-				elem["aria-valuenow"]= (width).toFixed(1);
+				elem["aria-valuenow"]= (width).toFixed(1).toString();
 				elem.innerHTML = (width).toFixed(1) + "%";
-				var elem = document.getElementsByClassName("progress-bar-marker")[0];
-				elem.style.width = totneeded - width + "%";
+				if (width > 80){
+					elem.className += " bg-success"
+					var ftag = document.createElement("h2");
+					var text = document.createTextNode("🎉🎉 We made it to 80% participation!!!! 🎉🎉");
+					var stag = document.createElement("h2");
+					var sectext = document.createTextNode("Time to prepare for ice cream! 🍨🍦🍧");
+					var finelem = document.getElementById("complete");
+					ftag.style['text-align'] = "center";
+					stag.style['text-align'] = "center";
+				  ftag.appendChild(text);
+				  stag.appendChild(sectext);
+				  finelem.appendChild(ftag);
+				  finelem.appendChild(stag);
+
+					// change color and words
+					var progcwords = document.getElementById("progress-color");
+					progcwords.color = "green";
+					progcwords.innerHTML = "green progress bar";
+
+					// remove target bar words
+					var targetwords = document.getElementById("needed-progress");
+					targetwords.remove()
+				}else{
+					var elem = document.getElementsByClassName("progress-bar-marker")[0];
+					elem.style.width = totneeded - width + "%";
+				}
 
     })
     .catch(function(err) {  

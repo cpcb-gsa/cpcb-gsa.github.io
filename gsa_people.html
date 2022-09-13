@@ -25,7 +25,7 @@ layout: default
 	{% assign year = exec_board_hash[0] | slice: 4,9 %}
 	{% assign exec_board = exec_board_hash[1] %}
 	{%- if forloop.index0 == 0 -%}
-	<div class="tab-pane container active" id="year{{year}}">
+	<div class="tab-pane container show fade active" id="year{{year}}">
 	{%- else -%}
 	<div class="tab-pane container fade" id="year{{year}}">
 	{% endif %}

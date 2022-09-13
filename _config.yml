@@ -8,12 +8,12 @@ description: CMU-Pitt Computational Biology PhD Graduate Student Association
 
 sections:
   - title: Documents
-    path: ./documents.html
+    path: /documents.html
   - title: Calendar
-    path: ./calendar.html
+    path: /calendar.html
   - title: Meeting Minutes
-    path: ./minutes.html
+    path: /minutes.html
   - title: Constitution
-    path: https://docs.google.com/document/d/1tQriag5fbN8yLRg5PV_3itHnHWbBr9MLHmkgQT9KQVs/edit?usp=sharing
+    path: https://raw.githubusercontent.com/cpcb-gsa/Constitution/main/Constitution.pdf
   - title: People
-    path: ./gsa_people.html
+    path: /gsa_people.html

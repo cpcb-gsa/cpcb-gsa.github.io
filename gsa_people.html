@@ -2,19 +2,45 @@
 layout: default
 ---
 <div class="container text-center"><h1>Meet the CPCB GSA Governing Board!</h1></div>
-<div class="container overflow-hidden">
-	<div class='row row-cols-1 row-cols-md-3 g-3'>
-		{% for person in site.data.people.exec2022-2023 %}
-		{% assign rownum = forloop.index0 | modulo:3 %}
-		{% assign pic_fname = person.name | truncatewords: 1, "" %}
-		<div class='col' style="margin-top:var(--bs-gutter-y)">
-			{%- if person.title == "Ombudsperson" -%}
-			<div class="card text-center h-100 text-white bg-secondary">
+
+<!-- Tab navs -->
+<ul class="nav nav-tabs" role="tablist">
+	{% for exec_board_hash in site.data.people reversed %}
+	{% assign year = exec_board_hash[0] | slice: 4,9 %}
+	<li class="nav-item">
+		{%- if forloop.index0 == 0 -%}
+		<a class="nav-link active" data-bs-toggle="tab" href="#year{{year}}" id="nav-{{year}}-tab" role="tab">
+		{%- else -%}
+		<a class="nav-link" data-bs-toggle="tab" href="#year{{year}}" id="nav-{{year}}-tab" role="tab">
+		{% endif %}
+			{{year}}
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+
+<!-- Tab content -->
+<div class="tab-content">
+	{% for exec_board_hash in site.data.people reversed %}
+	{% assign year = exec_board_hash[0] | slice: 4,9 %}
+	{% assign exec_board = exec_board_hash[1] %}
+	{%- if forloop.index0 == 0 -%}
+	<div class="tab-pane container active" id="year{{year}}">
+	{%- else -%}
+	<div class="tab-pane container fade" id="year{{year}}">
+	{% endif %}
+		<div class='row justify-content-center row-cols-1 row-cols-md-3 g-3'>
+			{% for person in exec_board %}
+			{% assign rownum = forloop.index0 | modulo:3 %}
+			{% assign pic_fname = person.name | truncatewords: 1, "" %}
+			<div class='col' style="margin-top:var(--bs-gutter-y)">
+				{%- if person.title == "Ombudsperson" -%}
+				<div class="card text-center h-100 text-white bg-secondary">
 				{%- else - %}
 				<div class="card text-center h-100">
-					{% endif %}
+				{% endif %}
 					<h3 class='card-header text-center'>{{person.title}}</h3>
-					<img class='card-img-top img-rounded mx-auto d-block' src='/assets/images/people_2022-2023/{{pic_fname}}_profile.jpg' alt="">
+					<img class='card-img-top img-rounded mx-auto d-block' src='/assets/images/people_{{year}}/{{pic_fname}}_profile.jpg' alt="">
 					<!-- <p style="font-size:1.25em;margin-bottom:0em;"><strong>{{person.name}}</strong></p> -->
 					<h4 class="card-title">{{person.name}}</h4>
 					<p class='card-text'>
@@ -39,3 +65,5 @@ layout: default
 			{% endfor %}
 		</div>
 	</div>
+	{% endfor %}
+</div>

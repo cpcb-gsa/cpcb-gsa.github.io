@@ -1,0 +1,84 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: "Sophia Hu"
+  title: "Ombudsperson"
+  year: 3
+  advisor: "Jianhua Xing"
+  fun_fact: "I'm a black belt in karate."
+
+- name: "Monica Dayao"
+  title: "President"
+  year: 4
+  advisor: "Ziv Bar-Joseph"
+  fun_fact: "I'm building a camper van named \"Mochi\"."
+
+- name: "Gabriella Gerlach"
+  title: "Vice President"
+  year: 4
+  advisor: "Carlos Camacho"
+  fun_fact: "I ride horses."
+
+- name: "Andrew (Drew) McNutt"   
+  title: "Treasurer"
+  year: 4
+  advisor: "David Koes"
+  fun_fact: "I can only ride a unicycle forwards."
+
+- name: "Swapnil Keshari"
+  title: "Pitt GSA Rep"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "I can shout out really loud."
+
+- name: "Caleb Ellington"
+  title: "CMU GSA Rep"
+  year: 3
+  advisor: "Eric Xing"
+  fun_fact: "I've been  self-studying Mandarin for 2 years"
+
+- name: "Ian Dunn"
+  title: "Student Seminar Coordinator"
+  year: 2
+  advisor: "David Koes"
+  fun_fact: "I'm an excellent cook. My apartment has two Michelin stars." 
+
+- name: "Yajushi Khurana"
+  title: "Social Media Chair"
+  year: 2
+  advisor: "Jianhua Xing"
+  fun_fact: "I can play 'Twinkle Twinkle Little Star' on a piccolo snare drum."
+
+- name: "Steven Smeal"
+  title: "Outreach/ Volunteer Coordinator"
+  year: 4
+  advisor: "Robin Lee"
+  fun_fact: "I help make educational Youtube videos for BioZone."
+
+- name: "Shahul Alam"
+  title: "Senator"
+  year: 3
+  advisor: "Jian Ma"
+  fun_fact: "I love jazz, and I've been learning jazz piano over quarantine!"
+
+- name: "Alex Hummels"
+  title: "Senator"
+  year: 3
+  advisor: "Carlos Camacho"
+  fun_fact: "I am a vegan meat lover."
+
+- name: "Thomas Rachman"
+  title: "Senator"
+  year: 2
+  advisor: "Oana Carja and Russel Schwartz"
+  fun_fact: "I can make a whistle out of my hands and play any song with it."
+
+- name: "Hanxi Xiao"
+  title: "Senator"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "My favorite kind of books are cook books and murder mysteries."

@@ -7,6 +7,29 @@
   background-image: linear-gradient(90deg, rgba(225, 225, 225, 0.1) 99.5%, rgba(204, 0, 0, 1) 0.5%);
 }
 
+.main-content {
+	padding: 2rem 0rem;
+}
+.card{
+	.card-header{
+		margin-bottom: 0rem;
+	}
+	.card-title{
+		margin-top: 0.75rem;
+		margin-bottom: 0.5rem;
+	}
+}
+.bg-secondary{
+	.card-header{
+		// .h3{
+			color: rgba(154, 229, 100, 255);
+		// }
+	}
+	.card-title{
+			color: rgba(154, 229, 100, 255);
+	}
+}
+$card-height: 100%;
 .center-table{
 	margin-left: auto;
 	margin-right: auto;

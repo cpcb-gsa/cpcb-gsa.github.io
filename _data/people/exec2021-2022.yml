@@ -5,6 +5,12 @@
 #   advisor: 
 #   fun_fact: 
 
+- name: "Roshni Bhatt"
+  title: Ombudsperson
+  year: 3
+  advisor: "Jacob Durrant"
+  fun_fact: "I listen to more music in languages I don't speak than in languages I do."
+
 - name: "Neha Cheemalavagu"
   title: President
   year: 4
@@ -34,12 +40,6 @@
   year: 3
   advisor: "Andreas Pfenning"
   fun_fact: "I've traveled around the world in 80 days."
-
-- name: "Roshni Bhatt"
-  title: Ombudsperson
-  year: 3
-  advisor: "Jacob Durrant"
-  fun_fact: "I listen to more music in languages I don't speak than in languages I do."
 
 - name: "Stefan Andjelkovic"
   title: Student Seminar Coordinator

@@ -21,5 +21,10 @@ Assuming you have followed all of the steps above for properly updating the webs
 
 Then go on your browser to [http://localhost:4000](http://localhost:4000).
 
+Alternatively, if you would like to check the website on other devices (e.g. phone, tablet, etc.) on your local network you can run
+
+`bundle exec jekyll s -H <your internal IP>`
+
+Then go on your browser on any device on the same network to `http://<your internal IP>:4000`
 
 

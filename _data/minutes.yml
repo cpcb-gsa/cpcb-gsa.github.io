@@ -1,6 +1,9 @@
-# IMPORTANT: to ensure that Google Docs links are read-only, first do 'File > Publish to the web' and use that URL.
+# IMPORTANT: to ensure that Google Docs links are read-only, first do 'File > Share > Publish to web' and use that URL.
 # DO NOT use the normal sharing link for the Google Doc.
 # Date should be in the format YYYY-MM-DD
+
+- date: 2022-10-05
+  url: https://docs.google.com/document/d/e/2PACX-1vRTeqQegNTxpHH7dSPEKcUWXPq1sbvVLPO8aofDQtmEppEzH861c-eWGjlhZl9Cmse58JC0P7XUqlvi/pub
 
 - date: 2022-09-16
   url: https://docs.google.com/document/d/e/2PACX-1vR6K-VTgF_sWgeKppRR76r5BsMdIz3RH3smPXMZGtfOkl8nId84OsPNTISaeB6_S8UrpKugwObozApW/pub

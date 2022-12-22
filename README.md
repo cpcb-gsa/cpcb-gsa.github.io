@@ -10,8 +10,6 @@ This is the public webpage of the CMU-Pitt Computational Biology PhD Program's G
 
 If you have issues installing some of the gems, try deactivating anaconda.
 
-If you have issues with ruby, gem, or `bundle install` then retry with ruby version 2.7.2.
-
 The [Jekyll](https://jekyllrb.com/) documentation is useful for setting up the environment and updating the webpage.
 
 ### Viewing the webpage locally

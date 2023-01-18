@@ -17,6 +17,8 @@ Assuming you have followed all of the steps above for properly updating the webs
 
 `bundle exec jekyll serve`
 
+(If using OSX, you may need to set the following environment variable first: `VAGRANT_DISABLE_RESOLV_REPLACE=1`)
+
 Then go on your browser to [http://localhost:4000](http://localhost:4000).
 
 Alternatively, if you would like to check the website on other devices (e.g. phone, tablet, etc.) on your local network you can run

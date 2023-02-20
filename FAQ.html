@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<h1 class="text-center">Frequently Asked Questions</h1>
+<p>This is a list of Frequently Asked Questions (FAQs) that were gathered from current students.</p>
+<!-- If you have another question/answer that you think would be useful to add to this list, please fill out <a>this quick google form</a> and we will add your question to the list!</p> -->
+<div class="accordion" id="FAQ">
+	{% for question_answer in site.data.freq_asked_ques %}
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="heading{{forloop.index}}">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-toggle="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+				{{question_answer.question}}
+			</button>
+		</h2>
+		<div id="collapse{{forloop.index}}" class="accordion-collapse collapse show" aria-labelledby="heading{{forloop.index}}" data-bs-parent="#FAQ">
+			<div class="accordion-body">
+				{{question_answer.answer}}
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+

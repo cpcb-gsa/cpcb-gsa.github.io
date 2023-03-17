@@ -11,7 +11,7 @@ layout: default
 <div id="complete">
 </div>
 <script>
-	fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQSskiQhmJeADX7PbyY_uyH3ZlDafR2egDaiw-FHjB_CUaYSdvZo4reSaw_GBxAL8qwAnDkYztsGEDN/pubhtml?gid=2050786915&single=true')
+	fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vR-sEr2lWDEdCNU4lCUvmOV7t3OuoMRx8cYHpBaveJChxoTRDri5UkcHImGlFZ0_1fQixLsChlolomC/pubhtml?gid=90770309&single=true')
     .then(function(response) {
         // When the page is loaded convert it to text
         return response.text()
@@ -24,8 +24,8 @@ layout: default
         var doc = parser.parseFromString(html, "text/html");
 
         let curprog = doc.getElementsByClassName("s0")[0].textContent;
-				let totstu = 86;
-				let totneeded = 80;
+				let totstu = 88;
+				let totneeded = Math.ceil(0.8*totstu);
 
 				var elem = document.getElementsByClassName("progress-bar progress-bar-striped")[0];
 				let width = curprog/totstu*100;

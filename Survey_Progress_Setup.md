@@ -13,4 +13,5 @@ Most of the functionality is already there for implementing the survey progress 
 5) Copy the URL of the published web page.
 6) Edit the `survey_progress.html` page and change the URL in the javascript to the published page that you just copied.
 7) Then adjust the `totstu` variable to the current number of students in the program.
-8) (Optional) Adjust the success text to whatever the reward is for reaching 80% participation
+8) Update the year in the header to the current year.
+9) (Optional) Adjust the success text to whatever the reward is for reaching 80% participation

@@ -25,7 +25,7 @@ layout: default
 
         let curprog = doc.getElementsByClassName("s0")[0].textContent;
 				let totstu = 87;
-				let totneeded = Math.ceil(0.8*totstu);
+				let totneeded = 80;
 
 				var elem = document.getElementsByClassName("progress-bar progress-bar-striped")[0];
 				let width = curprog/totstu*100;
@@ -58,7 +58,7 @@ layout: default
 					var elem = document.getElementsByClassName("progress-bar-marker")[0];
 					elem.style.width = totneeded - width + "%";
                     let redwidth = (1/4)/(totneeded-width)*100;
-		            let remainwidth = (totneeded-width-(1/4))/(totneeded-width)*100;
+		            let remainwidth = (totneeded-width)/(totneeded-width)*100;
 		            elem.style.backgroundImage = 'linear-gradient(90deg, rgba(225,225,225,0.1) ' + remainwidth + '%, rgba(204,0,0,1) ' + redwidth + '%)';
 				}
 

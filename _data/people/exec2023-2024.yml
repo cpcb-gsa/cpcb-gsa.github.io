@@ -20,8 +20,8 @@
 - name: "Thomas Rachman"
   title: "Vice President"
   year: 3
-  advisor: "Oana Carja and Russel Schwartz"
-  fun_fact: ""
+  advisor: "Oana Carja & Russel Schwartz"
+  fun_fact: "I can make a whistle out of my hands and play any song with it."
 
 - name: "Alexander (Alex) Hummels"   
   title: "Treasurer"
@@ -69,7 +69,7 @@
   title: "Senator"
   year: 2
   advisor: "Jian Ma"
-  fun_fact: ""
+  fun_fact: "I can tolerate 20x spicy food also."
 
 - name: "Annie Kim"
   title: "Senator"

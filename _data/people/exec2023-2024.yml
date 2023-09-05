@@ -15,7 +15,7 @@
   title: "President"
   year: 4
   advisor: "Eric Xing"
-  fun_fact: "Co-creator of [contextualized.ml](https://contextualized.ml/)."
+  fun_fact: 'Co-creator of <a href="https://contextualized.ml/">contextualized.ml</a>.'
 
 - name: "Thomas Rachman"
   title: "Vice President"

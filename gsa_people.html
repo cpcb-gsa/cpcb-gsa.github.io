@@ -3,10 +3,17 @@ layout: default
 ---
 <div class="container text-center"><h1>Meet the CPCB GSA Governing Board!</h1></div>
 
+{% capture exec_board_keys %}
+    {% for key in site.data.people %}
+        {{ key[0] }}
+    {% endfor %}
+{% endcapture %}
+{% assign sorted_exec_board_keys = exec_board_keys | split:' ' | sort | reverse %}
+
 <!-- Tab navs -->
 <ul class="nav nav-tabs" role="tablist">
-	{% for exec_board_hash in site.data.people reversed %}
-	{% assign year = exec_board_hash[0] | slice: 4,9 %}
+    {% for exec_board_key in sorted_exec_board_keys %}
+	{% assign year = exec_board_key | slice: 4,9 %}
 	<li class="nav-item">
 		{%- if forloop.index0 == 0 -%}
 		<a class="nav-link active" data-bs-toggle="tab" href="#year{{year}}" id="nav-{{year}}-tab" role="tab">
@@ -21,9 +28,9 @@ layout: default
 
 <!-- Tab content -->
 <div class="tab-content">
-	{% for exec_board_hash in site.data.people reversed %}
-	{% assign year = exec_board_hash[0] | slice: 4,9 %}
-	{% assign exec_board = exec_board_hash[1] %}
+    {% for exec_board_key in sorted_exec_board_keys %}
+    {% assign exec_board = site.data.people[exec_board_key] %}
+	{% assign year = exec_board_key | slice: 4,9 %}
 	{%- if forloop.index0 == 0 -%}
 	<div class="tab-pane container show fade active" id="year{{year}}">
 	{%- else -%}

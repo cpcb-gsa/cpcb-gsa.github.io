@@ -1,0 +1,84 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: "Yajushi Khurana"
+  title: "Ombudsperson"
+  year: 3
+  advisor: "Keisuke Ishihara"
+  fun_fact: "I can play 'Twinkle Twinkle Little Star' on a piccolo snare drum."
+
+- name: "Caleb Ellington"
+  title: "President"
+  year: 4
+  advisor: "Eric Xing"
+  fun_fact: "Co-creator of [contextualized.ml](https://contextualized.ml/)."
+
+- name: "Thomas Rachman"
+  title: "Vice President"
+  year: 3
+  advisor: "Oana Carja & Russel Schwartz"
+  fun_fact: "I can make a whistle out of my hands and play any song with it."
+
+- name: "Alex Hummels"   
+  title: "Treasurer"
+  year: 4
+  advisor: "Carlos Camacho"
+  fun_fact: "I have become a bouldering, bike commuting, vegan since starting my PhD."
+
+- name: "Alisa Omelchenko"
+  title: "Pitt GSA Rep"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "I make a good pumpkin cheesecake."
+
+- name: "Chaitanya (Chai) Srinivasan"
+  title: "CMU GSA Rep"
+  year: 2
+  advisor: "Andreas Pfenning"
+  fun_fact: "I play the piano and clarinet."
+
+- name: "Alistair Turcan"
+  title: "Student Seminar Coordinator"
+  year: 2
+  advisor: "Anne Carvunis"
+  fun_fact: "TransRibo" 
+
+- name: "Yajushi Khurana"
+  title: "Social Media Chair"
+  year: 3
+  advisor: "Keisuke Ishihara"
+  fun_fact: "I can play 'Twinkle Twinkle Little Star' on a piccolo snare drum."
+
+- name: "Stephanie (Steph) Masotti"
+  title: "Outreach/ Volunteer Coordinator"
+  year: 2
+  advisor: "Nate Lord & Oana Carja"
+  fun_fact: "I have designed 7+ album covers for independent musicians!"
+
+- name: "Rishal Aggarwal"
+  title: "Senator"
+  year: 2
+  advisor: "David Koes"
+  fun_fact: "I can moonwalk and shuffle."
+
+- name: "Akanksha Sachan"
+  title: "Senator"
+  year: 2
+  advisor: "Jian Ma"
+  fun_fact: "I can tolerate 20x spicy food also."
+
+- name: "Annie Kim"
+  title: "Senator"
+  year: 2
+  advisor: "Robin Lee"
+  fun_fact: "I can touch my elbows behind my back."
+
+- name: "Filipp Nikitin"
+  title: "Senator"
+  year: 2
+  advisor: "Olexandr Isayev"
+  fun_fact: "I am manipulated by the biggest CPCB cat 🐈."

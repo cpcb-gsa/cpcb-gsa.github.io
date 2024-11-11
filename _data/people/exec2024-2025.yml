@@ -1,0 +1,84 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: "Alex DiBiasi"
+  title: "Ombudsperson"
+  year: 3
+  advisor: "Jim Faeder"
+  fun_fact: "I'm prone to doodling in class."
+
+- name: "Annie Kim"
+  title: "President"
+  year: 3
+  advisor: "Robin E.C. Lee"
+  fun_fact: "I've sent an experiment up to the International Space Station before!"
+
+- name: "Rishal Aggarwal"
+  title: "Vice President"
+  year: 3
+  advisor: "David Koes"
+  fun_fact: "I know the London opening, you could already call me a Chess Grand Master."
+
+- name: "Akanksha Sachan"   
+  title: "Treasurer"
+  year: 3
+  advisor: "Aditi Gurkar & Jishnu Das"
+  fun_fact: "I can tolerate up to 20x spice (tested in a ramen bar in Chinatown, SF)"
+
+- name: "Alisa Omelchenko"
+  title: "BGSA Rep"
+  year: 3
+  advisor: "Jishnu Das"
+  fun_fact: "I am an ambidextrous pipetter."
+
+- name: "Nick Ho"
+  title: "CMU GSA Rep"
+  year: 2
+  advisor: "Eric Xing & Jian Ma"
+  fun_fact: "I like to yo-yo."
+
+- name: "Luisa (Ellie) Escobar-Robledo"
+  title: "Student Speaker Liason"
+  year: 2
+  advisor: "Keisuke Ishihara"
+  fun_fact: "I like to freestyle rap about the mundane things in my life when I'm bored." 
+
+- name: "Emma Flynn"
+  title: "Social Media Chair"
+  year: 2
+  advisor: "David Koes"
+  fun_fact: "I love foraging for fruit."
+
+- name: "Caitlin Strassburg"
+  title: "Outreach/ Volunteer Coordinator"
+  year: 2
+  advisor: "Shikhar Uttam & Rachel Gottschalk"
+  fun_fact: "In 2022, I solved every daily NYT crossword puzzle!"
+
+- name: "Xue Er Ding"
+  title: "Senator"
+  year: 2
+  advisor: "Jian Ma"
+  fun_fact: "In my free time, I enjoy rock climbing, oil painting, and petting cute cats."
+
+- name: "Thomas Jacob"
+  title: "Senator"
+  year: 2
+  advisor: "Shikhar Uttam & Wayne Stallaert"
+  fun_fact: "I once dropped my phone off Phantom's Revenge at Kennywood and it survived unbroken."
+
+- name: "Anamarie Martinez"
+  title: "Senator"
+  year: 2
+  advisor: "Rachel Gottschalk & Jim Faeder"
+  fun_fact: "I have lived in Pittsburgh my whole life."
+
+- name: "Jane Siwek"
+  title: "Senator"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "I have been bitten by a snake 🐍."

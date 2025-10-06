@@ -18,10 +18,10 @@
   fun_fact: "My dad went to college with the Pope."
 
 - name: "Jane Siwek"
-  title: "Vice President"
+  title: "Senator"
   year: 3
   advisor: "Jishnu Das"
-  fun_fact: "I have been bitten by a snake 🐍"
+  fun_fact: "I have been bitten by a snake 🐍."
 
 - name: "Fareeda E. Abu-Juam"   
   title: "Treasurer"
@@ -51,7 +51,7 @@
   title: "Social Media Chair"
   year: 2
   advisor: "Harinder Singh and John Barton"
-  fun_fact: "-"
+  fun_fact: "I almost got run over by a sea turtle"
 
 - name: "Gargi Kher"
   title: "Outreach/ Volunteer Coordinator"

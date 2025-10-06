@@ -1,0 +1,84 @@
+# All of the people should have the following fields
+# - name: 
+#   title: 
+#   year: 
+#   advisor: 
+#   fun_fact: 
+
+- name: "Alex DiBiasi"
+  title: "Ombudsperson"
+  year: 4
+  advisor: "Jim Faeder"
+  fun_fact: "I'm prone to doodling in class."
+
+- name: "Emma Flynn"
+  title: "President"
+  year: 3
+  advisor: "David Koes"
+  fun_fact: "My dad went to college with the Pope."
+
+- name: "Jane Siwek"
+  title: "Vice President"
+  year: 3
+  advisor: "Jishnu Das"
+  fun_fact: "I have been bitten by a snake 🐍"
+
+- name: "Fareeda E. Abu-Juam"   
+  title: "Treasurer"
+  year: 2
+  advisor: "David Koes and Mert Gur"
+  fun_fact: "I used to play the violin!"
+
+- name: "Achyudhan Kutuva"
+  title: "BGSA Rep"
+  year: 2
+  advisor: "Jim Faeder and Bill Hawse"
+  fun_fact: "I've met Bill Nye."
+
+- name: "Seo-Yoon Moon"
+  title: "CMU GSA Rep"
+  year: 2
+  advisor: "-"
+  fun_fact: "I like making pottery, rock climbing, and singing."
+
+- name: "Nishat  Anjum Bristy"
+  title: "Student Speaker Liason"
+  year: 4
+  advisor: "Russell Schwartz"
+  fun_fact: "-" 
+
+- name: "Maddie Shaklee"
+  title: "Social Media Chair"
+  year: 2
+  advisor: "Harinder Singh and John Barton"
+  fun_fact: "-"
+
+- name: "Gargi Kher"
+  title: "Outreach/ Volunteer Coordinator"
+  year: 2
+  advisor: "Shikhar Uttam & John Barton"
+  fun_fact: "I once by chance was on the front page of my town's newspaper."
+
+- name: "Akash Kishore"
+  title: "Senator"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "I like making earl grey chocolate chip cookies :)"
+
+- name: "Jieni Hu"
+  title: "Senator"
+  year: 2
+  advisor: "Maria Chikina"
+  fun_fact: "I stepped on my cat’s tail once every two weeks (not on purpose)"
+
+- name: "Seh Na Mellick"
+  title: "Senator"
+  year: 2
+  advisor: "Oana Carja and Drew Bridges"
+  fun_fact: "-"
+
+- name: "Sanjyot Shenoy"
+  title: "Senator"
+  year: 2
+  advisor: "Jishnu Das"
+  fun_fact: "-"

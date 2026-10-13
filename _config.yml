@@ -14,6 +14,6 @@ sections:
   - title: Meeting Minutes
     path: /minutes.html
   - title: Constitution
-    path: https://raw.githubusercontent.com/cpcb-gsa/Constitution/main/Constitution.pdf
+    path: https://github.com/cpcb-gsa/Constitution/blob/main/Constitution.pdf
   - title: People
     path: /gsa_people.html
